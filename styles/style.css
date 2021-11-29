@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.header__wrap {
+  padding: 110px 0 100px;
+}
+.header__wrap .title {
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.header__content {
+  font-family: "Poppins", sans-serif;
+}
+.header__content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.header__content p {
+  font-size: 18px;
+  font-size: 400;
+}
+
+.team__item {
+  width: 265px;
+  height: 470px;
+  border: 2px solid #000;
+  position: relative;
+}
+.team__item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+.team__item::before {
+  content: "NARA";
+  font-family: "Julee", cursive;
+  position: absolute;
+  top: 12px;
+  right: -13px;
+  transform: rotate(90deg);
+  font-size: 1.6rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.team__item:nth-child(2):before {
+  content: "UCHIHA";
+  top: 24px;
+  right: -26px;
+}
+.team__item:nth-child(3)::before {
+  content: "KAKASHI";
+  top: 29px;
+  right: -28px;
+}
+.team__item:nth-child(4)::before {
+  content: "UZUMAKI";
+  top: 33px;
+  right: -34px;
+}
+.team__item:nth-child(5)::before {
+  content: "MINADZAKI";
+  top: 44px;
+  right: -44px;
+}
+.team__item:last-child::before {
+  content: "UCHIHA";
+  top: 25px;
+  right: -26px;
+}
+.team__item::after {
+  content: "SHIKAMARU";
+  font-family: "Julee", cursive;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 1.6rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.team__item:nth-child(2):after {
+  content: "SASKE";
+}
+.team__item:nth-child(3)::after {
+  content: "KAKASHI";
+}
+.team__item:nth-child(4)::after {
+  content: "NARUTO";
+}
+.team__item:nth-child(5)::after {
+  content: "MINATO";
+}
+.team__item:last-child::after {
+  content: "ITACHI";
+}
+.team .m-top {
+  margin-top: auto;
+}
+
+.link {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
